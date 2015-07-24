@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BBE90D81B62154700027A32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE90D71B62154700027A32 /* AppDelegate.swift */; };
+		3BBE90DA1B62154700027A32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE90D91B62154700027A32 /* ViewController.swift */; };
+		3BBE90DD1B62154700027A32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBE90DB1B62154700027A32 /* Main.storyboard */; };
+		3BBE90DF1B62154700027A32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBE90DE1B62154700027A32 /* Images.xcassets */; };
+		3BBE90E21B62154700027A32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BBE90E01B62154700027A32 /* LaunchScreen.xib */; };
+		3BBE90EE1B62154700027A32 /* Yahoo_Weather_ReplicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE90ED1B62154700027A32 /* Yahoo_Weather_ReplicaTests.swift */; };
+		3BBE90F81B622D5200027A32 /* WeatherForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE90F71B622D5200027A32 /* WeatherForecastTableViewCell.swift */; };
+		3BBE90FA1B6235EA00027A32 /* WeatherMapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE90F91B6235EA00027A32 /* WeatherMapTableViewCell.swift */; };
+		3BBE90FC1B6236EC00027A32 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBE90FB1B6236EC00027A32 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BBE90E81B62154700027A32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BBE90CA1B62154700027A32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BBE90D11B62154700027A32;
+			remoteInfo = "Yahoo Weather Replica";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BBE90D21B62154700027A32 /* Yahoo Weather Replica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yahoo Weather Replica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBE90D61B62154700027A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BBE90D71B62154700027A32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BBE90D91B62154700027A32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BBE90DC1B62154700027A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BBE90DE1B62154700027A32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BBE90E11B62154700027A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3BBE90E71B62154700027A32 /* Yahoo Weather ReplicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yahoo Weather ReplicaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBE90EC1B62154700027A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BBE90ED1B62154700027A32 /* Yahoo_Weather_ReplicaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yahoo_Weather_ReplicaTests.swift; sourceTree = "<group>"; };
+		3BBE90F71B622D5200027A32 /* WeatherForecastTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherForecastTableViewCell.swift; sourceTree = "<group>"; };
+		3BBE90F91B6235EA00027A32 /* WeatherMapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherMapTableViewCell.swift; sourceTree = "<group>"; };
+		3BBE90FB1B6236EC00027A32 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3BBE90FD1B6238A800027A32 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BBE90CF1B62154700027A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBE90FC1B6236EC00027A32 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BBE90E41B62154700027A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BBE90C91B62154700027A32 = {
+			isa = PBXGroup;
+			children = (
+				3BBE90FD1B6238A800027A32 /* CoreLocation.framework */,
+				3BBE90FB1B6236EC00027A32 /* MapKit.framework */,
+				3BBE90D41B62154700027A32 /* Yahoo Weather Replica */,
+				3BBE90EA1B62154700027A32 /* Yahoo Weather ReplicaTests */,
+				3BBE90D31B62154700027A32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BBE90D31B62154700027A32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BBE90D21B62154700027A32 /* Yahoo Weather Replica.app */,
+				3BBE90E71B62154700027A32 /* Yahoo Weather ReplicaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BBE90D41B62154700027A32 /* Yahoo Weather Replica */ = {
+			isa = PBXGroup;
+			children = (
+				3BBE90D71B62154700027A32 /* AppDelegate.swift */,
+				3BBE90D91B62154700027A32 /* ViewController.swift */,
+				3BBE90DB1B62154700027A32 /* Main.storyboard */,
+				3BBE90F71B622D5200027A32 /* WeatherForecastTableViewCell.swift */,
+				3BBE90F91B6235EA00027A32 /* WeatherMapTableViewCell.swift */,
+				3BBE90DE1B62154700027A32 /* Images.xcassets */,
+				3BBE90E01B62154700027A32 /* LaunchScreen.xib */,
+				3BBE90D51B62154700027A32 /* Supporting Files */,
+			);
+			path = "Yahoo Weather Replica";
+			sourceTree = "<group>";
+		};
+		3BBE90D51B62154700027A32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BBE90D61B62154700027A32 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BBE90EA1B62154700027A32 /* Yahoo Weather ReplicaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BBE90ED1B62154700027A32 /* Yahoo_Weather_ReplicaTests.swift */,
+				3BBE90EB1B62154700027A32 /* Supporting Files */,
+			);
+			path = "Yahoo Weather ReplicaTests";
+			sourceTree = "<group>";
+		};
+		3BBE90EB1B62154700027A32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BBE90EC1B62154700027A32 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BBE90D11B62154700027A32 /* Yahoo Weather Replica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BBE90F11B62154700027A32 /* Build configuration list for PBXNativeTarget "Yahoo Weather Replica" */;
+			buildPhases = (
+				3BBE90CE1B62154700027A32 /* Sources */,
+				3BBE90CF1B62154700027A32 /* Frameworks */,
+				3BBE90D01B62154700027A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yahoo Weather Replica";
+			productName = "Yahoo Weather Replica";
+			productReference = 3BBE90D21B62154700027A32 /* Yahoo Weather Replica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BBE90E61B62154700027A32 /* Yahoo Weather ReplicaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BBE90F41B62154700027A32 /* Build configuration list for PBXNativeTarget "Yahoo Weather ReplicaTests" */;
+			buildPhases = (
+				3BBE90E31B62154700027A32 /* Sources */,
+				3BBE90E41B62154700027A32 /* Frameworks */,
+				3BBE90E51B62154700027A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BBE90E91B62154700027A32 /* PBXTargetDependency */,
+			);
+			name = "Yahoo Weather ReplicaTests";
+			productName = "Yahoo Weather ReplicaTests";
+			productReference = 3BBE90E71B62154700027A32 /* Yahoo Weather ReplicaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BBE90CA1B62154700027A32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = JayAng;
+				TargetAttributes = {
+					3BBE90D11B62154700027A32 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3BBE90E61B62154700027A32 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3BBE90D11B62154700027A32;
+					};
+				};
+			};
+			buildConfigurationList = 3BBE90CD1B62154700027A32 /* Build configuration list for PBXProject "Yahoo Weather Replica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BBE90C91B62154700027A32;
+			productRefGroup = 3BBE90D31B62154700027A32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BBE90D11B62154700027A32 /* Yahoo Weather Replica */,
+				3BBE90E61B62154700027A32 /* Yahoo Weather ReplicaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BBE90D01B62154700027A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBE90DD1B62154700027A32 /* Main.storyboard in Resources */,
+				3BBE90E21B62154700027A32 /* LaunchScreen.xib in Resources */,
+				3BBE90DF1B62154700027A32 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BBE90E51B62154700027A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BBE90CE1B62154700027A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBE90DA1B62154700027A32 /* ViewController.swift in Sources */,
+				3BBE90FA1B6235EA00027A32 /* WeatherMapTableViewCell.swift in Sources */,
+				3BBE90D81B62154700027A32 /* AppDelegate.swift in Sources */,
+				3BBE90F81B622D5200027A32 /* WeatherForecastTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BBE90E31B62154700027A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBE90EE1B62154700027A32 /* Yahoo_Weather_ReplicaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BBE90E91B62154700027A32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BBE90D11B62154700027A32 /* Yahoo Weather Replica */;
+			targetProxy = 3BBE90E81B62154700027A32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BBE90DB1B62154700027A32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BBE90DC1B62154700027A32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BBE90E01B62154700027A32 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BBE90E11B62154700027A32 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BBE90EF1B62154700027A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BBE90F01B62154700027A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BBE90F21B62154700027A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Yahoo Weather Replica/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BBE90F31B62154700027A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Yahoo Weather Replica/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BBE90F51B62154700027A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Yahoo Weather ReplicaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yahoo Weather Replica.app/Yahoo Weather Replica";
+			};
+			name = Debug;
+		};
+		3BBE90F61B62154700027A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Yahoo Weather ReplicaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yahoo Weather Replica.app/Yahoo Weather Replica";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BBE90CD1B62154700027A32 /* Build configuration list for PBXProject "Yahoo Weather Replica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBE90EF1B62154700027A32 /* Debug */,
+				3BBE90F01B62154700027A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BBE90F11B62154700027A32 /* Build configuration list for PBXNativeTarget "Yahoo Weather Replica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBE90F21B62154700027A32 /* Debug */,
+				3BBE90F31B62154700027A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BBE90F41B62154700027A32 /* Build configuration list for PBXNativeTarget "Yahoo Weather ReplicaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBE90F51B62154700027A32 /* Debug */,
+				3BBE90F61B62154700027A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BBE90CA1B62154700027A32 /* Project object */;
+}
